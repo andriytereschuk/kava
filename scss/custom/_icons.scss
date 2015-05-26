@@ -1,0 +1,113 @@
+@import "compass/css3";
+
+$icon: sprite-map("icons/*.png", $spacing: 5px);
+
+[class*="icon-"]{
+	display: inline-block;
+}
+
+
+// Define blok width and height 
+//such as image's  width and height
+@mixin image-size($path){
+	width: image-width($path);
+	height: image-height($path);
+}
+
+// Sprite mixin
+@mixin sprite($map, $sprite, $width-height:1){
+	background: sprite($map,  $sprite) no-repeat;
+
+	@if $width-height == 1
+	{
+		@include image-size(sprite-file($map, $sprite));
+	}
+	@else{}
+}
+
+// Custom icons
+
+.icon-vimeo {
+	@include sprite($icon, icon-vimeo);
+}
+
+.icon-user {
+	@include sprite($icon, icon-user);
+}
+
+.icon-select-arrow {
+	@include sprite($icon, icon-select-arrow);
+}
+
+.icon-search-big {
+	@include sprite($icon, icon-search-big);
+}
+
+.icon-search {
+	@include sprite($icon, icon-search);
+}
+
+.icon-new {
+	@include sprite($icon, icon-new);
+}
+
+.icon-location {
+	@include sprite($icon, icon-location);
+}
+
+.icon-list {
+	@include sprite($icon, icon-list);
+}
+
+.icon-fs {
+	@include sprite($icon, icon-fs);
+}
+
+.icon-flickr {
+	@include sprite($icon, icon-flickr);
+}
+
+.icon-exit {
+	@include sprite($icon, icon-exit);
+}
+
+
+.icon-down-big {
+	@include sprite($icon, icon-down-big);
+}
+
+.icon-basket {
+	@include sprite($icon, icon-basket);
+}
+
+.icon-ardown2 {
+	@include sprite($icon, icon-ardown2);
+}
+
+.icon-ardown {
+	@include sprite($icon, icon-ardown);
+}
+
+.icon-left-slider {
+	@include sprite($icon, icon-left-slider);
+}
+
+.icon-right-slider {
+	@include sprite($icon, icon-right-slider);
+}
+
+.icon-right-slider {
+	@include sprite($icon, icon-right-slider);
+}
+
+.icon-close-btn {
+	@include sprite($icon, icon-close-btn);
+}
+
+.icon-remove {
+	@include sprite($icon, icon-remove);
+}
+
+.icon-left-brown {
+	@include sprite($icon, icon-left-brown);
+}

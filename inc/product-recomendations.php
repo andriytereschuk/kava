@@ -7,7 +7,9 @@
 				<h2>Також ми рекомендуєм</h2>
 			</div>
 		</div>
+	</div>
 
+	<div class="container container-full">
 		<!-- recomendations -->
 		<?php include_once('inc/recomendations.php'); ?>
 	</div>
