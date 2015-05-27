@@ -1208,6 +1208,7 @@ select, input {
 	line-height: 44px;
 	color: $light;
 	padding-left: 19px;
+	padding-right: 43px;
 	background-color: transparent;
 	padding-right: 10px;
 	cursor: pointer;
@@ -1523,4 +1524,207 @@ p {
 	&:hover {
 		background-color: $red-hover;
 	}
+}
+
+// blog
+
+#blog {
+	h1 {
+		margin-bottom: 30px;
+	}
+
+	article {
+		h2 {
+			font-size: 30px;
+			line-height: 30px;
+			margin: 0 0 3px 0;
+		}
+	}
+}
+
+.post-img {
+	margin-bottom: 27px;
+}
+
+.post-date {
+	color: $brown;
+	margin-bottom: 15px;
+}
+
+// checkout
+
+#checkout {
+	h1 {
+		margin-bottom: 30px;
+	}
+}
+
+.to-login {
+	margin-bottom: 20px;
+
+	a {
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.checkout-form {
+	padding-bottom: 20px;
+
+	h3 {
+		margin: 0 0 20px 0;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-weight: bold;
+	}
+
+	.select1 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	@include placeholder($light);
+
+	.check {
+		position: absolute;
+		left: 0;
+		top: 2px;
+	}
+
+	.red-btn {
+		width: 260px;
+	}
+}
+
+.in {
+	height: 44px;
+	line-height: 44px;
+	padding: 0 20px;
+	border: 1px solid $border;
+	background-color: transparent;
+	color: $light;
+	@include ts;
+	width: 100%;
+	margin-bottom: 20px;
+
+	&:focus {
+		outline: none;
+		border: 1px solid $grey;
+	}
+
+	&.error {
+		border: 1px solid $red;
+	}
+}
+
+.area {
+	height: 134px;
+	line-height: 44px;
+	padding: 0 20px;
+	border: 1px solid $border;
+	background-color: transparent;
+	color: $light;
+	@include ts;
+	width: 100%;
+	margin-bottom: 20px;
+
+	&:focus {
+		outline: none;
+		border: 1px solid $grey;
+	}
+
+	&.error {
+		border: 1px solid $red;
+	}
+}
+
+.user-info {
+	margin-bottom: 20px;
+}
+
+.check {
+	position: relative;
+
+	input {
+		position: absolute;
+		opacity: 0;
+		width: 26px;
+	  height: 26px;
+	  top: 0;
+	  left: 0;
+	  margin: 0;
+	  z-index: 2;
+
+		&:checked + .check-anim i{
+			@include sprite($icon, icon-check);
+			margin-left: 2px;
+			margin-top: 4px;
+		}
+	}
+
+	.check-anim {
+		width: 25px;
+		height: 25px;
+		border: 1px solid $border;
+	}
+}
+
+.check-blok {
+	position: relative;
+	color: $light;
+	line-height: 18px;
+	padding-left: 43px;
+	margin-bottom: 30px;
+}
+
+.checklist {
+	padding: 30px 70px;
+	background-color: #fff;
+
+	h3 {
+		margin: 0 0 20px 0;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-weight: bold;
+
+		& + .check-item {
+			border-top: 1px solid $border;
+		}
+	}
+}
+
+.check-item {
+	@include clearfix();
+	padding: 20px 0;
+	border-bottom: 1px solid $border;
+}
+
+.check-price {
+	text-align: right;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.check-title {
+	font-size: 18px;
+
+	.check-count {
+		color: $light;
+	}
+}
+
+.check-mark {
+	color: $brown;
+}
+
+.check-total {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: right;
+	margin-top: 30px;
 }

@@ -111,7 +111,21 @@
 		}
 	}
 
+	.checkout-form h3, .checklist h3 {
+		font-size: 16px;
+	}
+
+	.checklist h3 {
+		margin: 0 0 5px 0;
+	}
+
+	.check-blok {
+		font-size: 15px;
+	}
+
 }
+
+// end $screen-md-max
 
 @media (max-width: $screen-sm-max) {
 	.category {
@@ -296,6 +310,27 @@
 			position: relative;
 			top: 4px;
 		}
+	}
+
+	.checklist {
+		padding: 30px;
+	}
+
+	.in, .area {
+		padding: 0 10px;
+	}
+
+	.select1 {
+		padding-left: 10px;
+	}
+
+	.to-login {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.checkout-form .red-btn {
+		width: 100%;
 	}
 
 }
@@ -739,6 +774,47 @@
 	}
 
 	.return-to-catalog {
+		display: none;
+	}
+
+	// checkout
+
+	.check-title {
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 5px;
+	}
+
+	.check-price {
+		font-size: 14px;
+		line-height: 14px;
+	}
+
+	.check-total {
+		text-align: center;
+		font-size: 20px;
+		margin-top: 20px;
+	}
+
+	.check-mark {
+		font-size: 12px;
+		line-height: 12px;
+	}
+
+	.checklist {
+	  padding: 25px 10px;
+	}
+
+	h1 {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+
+	#checkout h1 {
+		margin-bottom: 22px;
+	}
+
+	.checklist-wrap {
 		display: none;
 	}
 }
