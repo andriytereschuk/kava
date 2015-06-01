@@ -139,6 +139,12 @@
 	.props {
 		padding: 0 20px 30px 20px;
 	}
+
+	.props-eq {
+		padding: 50px 20px 40px 20px;
+	}
+
+
 	.modal-lg {
 		width: auto;
 		
@@ -368,6 +374,20 @@
 }
 
 @media (max-width: $screen-xs-max) {
+
+	.col-info {
+	  padding: 35px 20px 20px 20px;
+
+	  p {
+	  	font-size: 14px;
+	  }
+	}
+
+	.col-info h2 {
+	  font-size: 30px;
+	  margin-bottom: 16px;
+	}
+
 	header {
 		height: 56px;
 	}
@@ -870,6 +890,18 @@
 		right: 8px;
 		top: 4px;
 	}
+
+	.props-eq {
+		.prop-title, .prop-value {
+			float: none;
+		}
+
+		.prop {
+			height: auto;
+			line-height: 22px;
+			padding: 4px 0;
+		}
+	}
 }
 
 @media (max-width: 414px) {
@@ -924,6 +956,11 @@
 		font-size: 16px;
 		margin: 20px 0;
 
+	}
+
+	.order {
+		width: 100%;
+		margin-bottom: 30px;
 	}
 }
 

@@ -1107,6 +1107,7 @@ footer {
 		float: left;
 		margin: 0;
 		letter-spacing: 0.1em;
+		margin-bottom: 25px;
 	}
 }
 
@@ -1118,7 +1119,6 @@ footer {
 	position: relative;
 	top: -4px;
 	margin-left: 30px;
-	margin-bottom: 25px;
 
 	i {
 		position: absolute;
@@ -1131,6 +1131,7 @@ footer {
 	width: 100%;
 	max-width: 770px;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .product-price {
@@ -1791,6 +1792,15 @@ input.in {
 .prop-title {
 	font-weight: bold;
 	float: left;
+
+	span {
+		color: $grey;
+		padding-left: 5px;
+	}
+
+	* {
+		display: inline;
+	}
 }
 
 .prop-value {
@@ -1880,4 +1890,44 @@ input.in {
 	img {
 		height: 46px;
 	}
+}
+
+.props-eq {
+	  padding: 60px;
+}
+
+.product-mark {
+	color: $brown;
+	font-size: 14px;
+	position: relative;
+	top: -8px;
+}
+
+.product {
+	ul {
+		margin: 15px 0 30px 0;
+	}
+	li {
+		position: relative;
+		padding-left: 17px;
+		color: $light;
+		margin-bottom: 8px;
+		line-height: 20px;
+
+		&:before {
+			@include cont;
+			width: 5px;
+			height: 5px;
+			background-color: $brown;
+			border-radius: 100%;
+			top: 7px;
+			left: 0;
+		}
+	}
+}
+
+.order {
+	width: 260px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
