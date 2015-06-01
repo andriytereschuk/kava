@@ -843,6 +843,19 @@
 	.modal-dialog {
 		margin: 10px 0;
 	}
+
+	.modal-dialog.madal-login {
+		width: 300px;
+		margin: 10px auto 10px auto;
+	}
+
+	.madal-login .modal-content {
+	  padding: 12px 15px;
+	}
+
+	.madal-login h2 {
+		margin-bottom: 25px;
+	}
 }
 // end $screen-xs-max
 @media (max-width: 440px) {

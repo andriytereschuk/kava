@@ -232,7 +232,7 @@
 						</div>
 					</div>
 				</div>
-	      <div class="close-popup" data-dismiss="modal" aria-label="Close""><i class="icon-close"></i></div>
+	      <div class="close-popup" data-dismiss="modal" aria-label="Close"><i class="icon-close"></i></div>
 	    </div>
 	  </div>
 	</div>

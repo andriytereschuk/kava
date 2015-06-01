@@ -1,5 +1,5 @@
 $(function() {
-	$('.profile').on('click', function(e) { 
+	$('.profile-btn').on('click', function(e) { 
 		e.stopPropagation(); 
 	});
 	

@@ -60,6 +60,10 @@ ul {
 	list-style: none;
 }
 
+a:active, a:focus, a:visited {
+	outline: none;
+}
+
 
 // header
 // ---------------
@@ -1525,6 +1529,10 @@ p {
 	&:hover {
 		background-color: $red-hover;
 	}
+
+	&.large {
+		width: 100%;
+	}
 }
 
 // blog
@@ -1590,15 +1598,15 @@ p {
 
 	@include placeholder($light);
 
-	.check {
-		position: absolute;
-		left: 0;
-		top: 2px;
-	}
-
 	.red-btn {
 		width: 260px;
 	}
+}
+
+.check-blok .check {
+	position: absolute;
+	left: 0;
+	top: 2px;
 }
 
 input.in {
@@ -1614,7 +1622,7 @@ input.in {
 
 	&:focus {
 		outline: none;
-		border: 1px solid $grey;
+		border: 1px solid $brown;
 	}
 
 	&.error {
@@ -1824,5 +1832,52 @@ input.in {
 		display: block;
 		float: none;
 		letter-spacing: 0.01em;
+	}
+}
+
+.modal-dialog.madal-login {
+	width: 400px;
+}
+
+.madal-login {
+	.modal-content {
+		padding: 12px 30px;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 36px;
+		font-family: 'LatoBlack';
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+
+	.check-blok {
+		line-height: 28px;
+		margin-bottom: 20px;
+	}
+}
+
+.forgot, .to-reg {
+	color: $brown;
+	text-decoration: underline;
+	display: block;
+	margin: 3px 0 24px 0;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.soc-enter {
+	margin: 13px 0 20px 0;
+
+	a {
+		display: inline-block;
+		margin: 0 5px;
+	}
+
+	img {
+		height: 46px;
 	}
 }

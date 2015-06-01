@@ -23,11 +23,55 @@
 					</a>
 
 					<div class="profile">
-						<a href="" class="login-btn">
+						<a href="" data-toggle="modal" data-target="#login" class="login-btn">
 							<i class="icon-user"></i>
 							<span>Логін</span>
 						</a>
 					</div>
+
+					<!-- Modal -->
+					<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog madal-login">
+					  		<div class="modal-content">
+									<div class="close-popup" data-dismiss="modal" aria-label="Close"><i class="icon-close"></i></div>
+									<h2>Логін</h2>
+									<input type="text" class="in" placeholder="Логін">
+									<input type="password" class="in" placeholder="Пароль">
+
+									<div class="check-blok">
+										<div class="check">
+											<input type="checkbox" checked="checked">
+											<div class="check-anim"><i class="icon-check"></i></div>
+										</div>
+
+										Запам'ятати мене
+									</div>
+
+									<a href="" class="red-btn large">Логін</a>
+
+									<a href="" class="forgot pull-left">Забули пароль?</a>
+									<a href="" class="to-reg pull-right">Реєстрація</a>
+									<div class="clr"></div>
+									<div class="align-center">Ввійти через:</div>
+
+									<div class="align-center soc-enter">
+										<a href=""><img src="images/fb.png" alt=""></a>
+										<a href=""><img src="images/g+.png" alt=""></a>
+									</div>
+								</div>
+					  </div>
+					</div>
+					
+					<!-- login popup -->
+					<!-- <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					    Hello
+					    <div class="close-popup" data-dismiss="modal" aria-label="Close"><i class="icon-close"></i></div>	
+					    </div>
+					   </div>
+					</div> -->
+					<!-- /login popup -->
 
 					<div class="lang">
 						<a href="" class="active">Ua</a> / <a href="">Pl</a>
