@@ -29,7 +29,7 @@
 						</a>
 					</div>
 
-					<!-- Modal -->
+					<!-- Логін попап -->
 					<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 					  <div class="modal-dialog madal-login">
 					  		<div class="modal-content">
@@ -50,7 +50,7 @@
 									<a href="" class="red-btn large">Логін</a>
 
 									<a href="" class="forgot pull-left">Забули пароль?</a>
-									<a href="" class="to-reg pull-right">Реєстрація</a>
+									<a href="reg.php" class="to-reg pull-right">Реєстрація</a>
 									<div class="clr"></div>
 									<div class="align-center">Ввійти через:</div>
 
@@ -61,17 +61,6 @@
 								</div>
 					  </div>
 					</div>
-					
-					<!-- login popup -->
-					<!-- <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
-					  <div class="modal-dialog">
-					    <div class="modal-content">
-					    Hello
-					    <div class="close-popup" data-dismiss="modal" aria-label="Close"><i class="icon-close"></i></div>	
-					    </div>
-					   </div>
-					</div> -->
-					<!-- /login popup -->
 
 					<div class="lang">
 						<a href="" class="active">Ua</a> / <a href="">Pl</a>
