@@ -111,3 +111,7 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-left-brown {
 	@include sprite($icon, icon-left-brown);
 }
+
+.icon-close {
+	@include sprite($icon, icon-close);
+}

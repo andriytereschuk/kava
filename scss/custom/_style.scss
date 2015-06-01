@@ -1285,6 +1285,7 @@ select, input {
 	display: block;
 	text-decoration: underline;
 	color: $brown;
+	cursor: pointer;
 
 	&:hover {
 		text-decoration: none;
@@ -1600,7 +1601,7 @@ p {
 	}
 }
 
-.in {
+input.in {
 	height: 44px;
 	line-height: 44px;
 	padding: 0 20px;
@@ -1727,4 +1728,101 @@ p {
 	font-weight: bold;
 	text-align: right;
 	margin-top: 30px;
+}
+
+.close-popup {
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	@include ts;
+	cursor: pointer;
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+.col-prop {
+	background-color: #ededed;
+}
+
+.container-full-desc {
+	padding-left: 0;
+	padding-right: 0;
+
+	.row {
+	  margin-left: 0;
+	  margin-right: 0;
+	}
+
+	[class*="col-"]{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.modal-lg {
+	width: 1092px;
+}
+
+.flex-blok {
+	@include flexblok();
+	@include alignitems();
+}
+
+.modal-lg {
+	.flex-column {
+		@include flex-basis(50%);
+	}
+}
+
+.props {
+	padding: 0 60px 40px 60px;
+}
+
+.prop-title {
+	font-weight: bold;
+	float: left;
+}
+
+.prop-value {
+	color: $light;
+	float: right;
+}
+
+.prop {
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid $border;
+}
+
+.prop-main {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 35px;
+}
+
+.prop-main-title {
+	letter-spacing: 0.1em;
+}
+
+.prop-main-value {
+	color: $light;
+	padding-left: 5px;
+}
+
+.col-info {
+	padding: 50px 30px 20px 50px;
+
+	h2 {
+		text-transform: uppercase;
+		font-size: 36px;
+		font-family: 'LatoBlack';
+		margin-bottom: 22px;
+		display: block;
+		float: none;
+		letter-spacing: 0.01em;
+	}
 }

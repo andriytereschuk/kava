@@ -44,3 +44,28 @@
 @mixin box() {
 	box-sizing: border-box;
 }
+
+@mixin flexblok() {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+@mixin flex-flow($row: row, $wrap: wrap) {
+	-webkit-flex-flow: $row $wrap;
+	-ms-flex-flow: $row $wrap;
+	flex-flow: $row $wrap;
+}
+
+@mixin flex-basis($basis: 1) {
+	-webkit-flex-basis: $basis;
+	-ms-flex-basis: $basis;
+	flex-basis: $basis;
+}
+
+@mixin alignitems($align: stretch) {
+	-webkit-align-items: $align;
+	-ms-align-items: $align;
+	align-items: $align;
+}

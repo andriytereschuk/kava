@@ -44,6 +44,14 @@
 }
 
 @media (max-width: $screen-md-max) {
+	.modal-lg {
+		width: 940px;
+	}
+
+	.col-info {
+	  padding: 45px 20px 20px 20px;
+	}
+
 	.category {
 		padding: 15px 30px;
 	}
@@ -128,6 +136,20 @@
 // end $screen-md-max
 
 @media (max-width: $screen-sm-max) {
+	.props {
+		padding: 0 20px 30px 20px;
+	}
+	.modal-lg {
+		width: auto;
+		
+		.flex-blok {
+			display: block;
+		}
+
+	}
+
+	
+
 	.category {
 		[class*="col-"] {
 			margin-bottom: 20px;
@@ -817,8 +839,25 @@
 	.checklist-wrap {
 		display: none;
 	}
+
+	.modal-dialog {
+		margin: 10px 0;
+	}
 }
 // end $screen-xs-max
+@media (max-width: 440px) {
+	.skillsPieChart {
+		canvas {
+			width: 100%;
+		}
+	}
+
+	.close-popup {
+		@include scale(0.8);
+		right: 8px;
+		top: 4px;
+	}
+}
 
 @media (max-width: 414px) {
 	// product

@@ -62,7 +62,7 @@
 
 				<div class="clr"></div>
 
-				<a href="" class="more-about">Детальніше про сорт</a>
+				<div class="more-about" data-toggle="modal" data-target="#myModal">Детальніше про сорт</div>
 
 				<div class="prod-label mt-10">Опис:</div>
 				<div class="clr"></div>
@@ -112,6 +112,129 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+				<div class="flex-blok">
+					<div class="flex-column col-prop">
+
+						<div class="skillsPieChart" data-values='{"Кислинка": 8.5, "Післясмак": 10.0, "Загальне враження":8.0, "Однорідність":8.5, "Тіло":8.5, "Баланс":8.5, "Чиста чашка":8.0, "Аромат":8.5, "Солодкість":9.0, "Смак":9.0}'>							
+								<div style="text-align: center;">
+									<div class="chartCanvasWrap"></div>
+								</div>								
+						</div>
+
+						<script src="js/jquery-radar-plus.js"></script>
+						<script>
+						$(function(){
+							$('.skillsPieChart').radarChart({
+							size: [380, 350],
+							step: 2,
+							color: [0,0,0],
+							fixedMaxValue: 6,
+							additionalLineDistance: false,
+							showAxisLabels: false
+							});
+						});
+						</script>
+						
+						<div class="props">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="prop">
+										<div class="prop-title">Аромат</div>
+										<div class="prop-value">7</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="prop">
+										<div class="prop-title">Солодкість</div>
+										<div class="prop-value">7</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="prop">
+										<div class="prop-title">Смак</div>
+										<div class="prop-value">7</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="prop">
+										<div class="prop-title">Кислинка</div>
+										<div class="prop-value">7</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="prop">
+										<div class="prop-title">Післясмак</div>
+										<div class="prop-value">7</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="prop">
+										<div class="prop-title">Загальне враження</div>
+										<div class="prop-value">7</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="prop">
+										<div class="prop-title">Однорідність</div>
+										<div class="prop-value">7</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="prop">
+										<div class="prop-title">Тіло</div>
+										<div class="prop-value">7</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="prop">
+										<div class="prop-title">Баланс</div>
+										<div class="prop-value">7</div>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="prop">
+										<div class="prop-title">Чиста чашка</div>
+										<div class="prop-value">7</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="prop-main">
+								<span class="prop-main-title">Загальна</span>
+								<span class="prop-main-value">7</span>
+							</div>
+						</div>
+
+					</div>
+					<div class="flex-column">
+						<div class="col-info">
+							<h2>Сан хосе</h2>
+							<p>У 1885 році Атанасіо Родольфо Ромеро, прадід сім’ї Родрігес-Ромеро, купив велику ділянку землі в районі Капукас, що в Гондурасі, та почав вирощувати тютюн і невелику кількість кави для власного споживання. 75 років потому його син Атанасіо Родольфо-Ромеро подорожував по Коста Ріці, де здобув навички щодо вирощування кави високої якості. Він перейшов від вирощування тютюну до кави та заклав основу для Капукас, що стала улюбленою кавою плантацій в Гондурасі.</p>
+							<p>У 1999 році Омар Родрігес, зять Атанасіо, заснував кооператив Кафеталера Капукас Лімітіда (COCAFCAL).</p>
+							<p>Капукас розташований на заході Гондурасу, поблизу відомого національного парку “Келагуа”, що означає відро води. Тисячі туристів відвідують цей регіон країни, там Ви зможете знайти відомі руїни майя. Земля поблизу цього маленького села є ідеальною для вирощування кави через хороші грунти та кліматичні умови і висоту зростання, що коливається в межах 1200-1800 мнрм.</p>
+							<p>Кооператив виготовляє близько 181 т зеленої кави, що розкуповується за кілька тижнів після збору урожаю.</p>
+							<p>У Капукасі кооператив встановив відмінну систему для вологої обробки зерен, нові сушильні машини та повністю </p>
+						</div>
+					</div>
+				</div>
+	      <div class="close-popup" data-dismiss="modal" aria-label="Close""><i class="icon-close"></i></div>
+	    </div>
+	  </div>
 	</div>
 
 <script>
