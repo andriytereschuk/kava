@@ -7,12 +7,21 @@
 		</div>
 
 		<div class="row">
-			<div class="col-sm-8">
-				<?php include_once('inc/posts.php'); ?>
+
+			<div class="mobi-category">
+				<h2>Категорії</h2>
+				<ul></ul>
+				<script>
+					$(function(){
+						var $categoryUl = $('.cat-nav > ul');
+						var $categoryUlMoby = $('.mobi-category > ul');
+						$categoryUlMoby.append($categoryUl.html());
+					})
+				</script>
 			</div>
-			<div class="col-sm-4">
-				<?php include_once('inc/sidebar.php'); ?>
-			</div>
+
+			<?php include_once('inc/posts.php'); ?>
+			<?php include_once('inc/sidebar.php'); ?>
 		</div>
 	</div>
 </section>
