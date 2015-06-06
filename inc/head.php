@@ -19,9 +19,6 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<!-- FONTS -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,600,800,700,300' rel='stylesheet' type='text/css'>
-
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/site.css">
 
