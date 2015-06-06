@@ -126,6 +126,14 @@
 		font-size: 15px;
 	}
 
+	.sidebar {
+		padding: 20px 10px 20px 10px;
+	}
+
+	.to-shop {
+		width: 100%;
+	}
+
 }
 
 // end $screen-md-max
@@ -153,10 +161,6 @@
 		width: 100%;
 	}
 
-	.to-shop {
-		width: 100%;
-	}
-
 	.cat-nav {
 		min-height: 170px;
 	}
@@ -167,10 +171,6 @@
 
 	.cat-nav li {
 	  padding: 3px 0;
-	}
-
-	.sidebar {
-		padding: 20px 10px 20px 10px;
 	}
 
 	.props {

@@ -1,5 +1,6 @@
 
-<div class="col-sm-5 col-md-4 sidebar">
+<div class="col-sm-5 col-md-4">
+<div class="sidebar">
 	<a href="" class="red-btn to-shop">Перейти в магазин</a>
 
 	<div class="cat-nav">
@@ -73,4 +74,5 @@
 		<a href=""><img src="images/tw-grey.png" alt=""></a>
 		<a href=""><img src="images/g+grey.png" alt=""></a>
 	</div>
+</div>
 </div>
