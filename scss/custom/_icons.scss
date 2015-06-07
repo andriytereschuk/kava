@@ -115,3 +115,7 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-close {
 	@include sprite($icon, icon-close);
 }
+
+.icon-clock {
+	@include sprite($icon, icon-clock);
+}

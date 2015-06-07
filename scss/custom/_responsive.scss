@@ -262,6 +262,10 @@
 
 	#content {
 	  padding: 0 0 150px;
+
+	  &.content-map {
+	  	padding: 0 0 130px;
+	  }
 	}
 
 	footer {
@@ -443,6 +447,16 @@
 }
 
 @media (max-width: $screen-xs-max) {
+	.contact-50:first-child {
+		margin-bottom: 30px;
+	}
+
+	#feedback {
+		.red-btn {
+			min-width: 100%;	
+		}
+	}
+
 	#blog h1 {
 		margin-bottom: 20px;
 	}
@@ -740,6 +754,10 @@
 
 	#content {
 	  padding: 0 0 150px;
+
+	  &.content-map {
+	  	padding: 0 0 130px;
+	  }
 	}
 
 	.menu-btn {
