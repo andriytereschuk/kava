@@ -1,6 +1,29 @@
 
 <header>
 	<div class="container">
+
+		<!-- info popup -->
+		<div class="modal fade" id="info" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog madal-login">
+		  		<div class="modal-content">
+						<div class="modal-info">
+							Товар додано в корзину
+						</div>
+					</div>
+		  </div>
+		</div>
+
+		<script>
+		$(function(){
+			$('#info').modal('show');
+
+			setTimeout( function() {
+				$('#info').modal('hide');
+			}, 2000);
+		});
+		</script>
+		<!-- /info popup -->
+
 		<div class="search">
 			<i class="icon-search-big"></i>
 			<input type="text" placeholder="Пошук">
