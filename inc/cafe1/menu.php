@@ -1,79 +1,82 @@
 
 
 <section id="menu">
-	<!-- Using turn.js and the new zoom feature -->
-	
-	<script src="turnjs/lib/modernizr.2.5.3.min.js"></script>
-	<script src="turnjs/lib/hash.js"></script>
-	<script src="turnjs/js/menu.js"></script>
+	<script>
+	$(function(){
+		$('.menu-item').on('click', function(){
+			var self = $(this);
+			var iframeSrc = 'turnjs4/samples/' + self.attr("data-folder")+ '/index.html#' + self.attr("data-page");
+			$('#myframe').attr('src', iframeSrc);
+		});
+
+		$('#album').on('hide.bs.modal', function () {
+		  $('#myframe').removeAttr('src');
+		})
+	});
+	</script>
+
+	<!-- popap for menu album -->
+	<div class="modal fade" id="album" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-menu">
+	  		<div class="modal-content">
+					<div class="close-popup" data-dismiss="modal" aria-label="Close"><i class="icon-close"></i></div>
+					<iframe id="myframe" src="" width="100%" height="100%" frameborder="0"></iframe>
+				</div>
+	  </div>
+	</div>
+
 	<div class="container">
-		<div class="row">
+		<div class="row ">
 			<div class="col-xs-12">
 				<h2>Меню</h2>
-				<a href="" class="menu-item">
-					<img src="images/menu1.jpg" alt="">
-				</a>
+
+				<div class="thumb-menu">
+					<a href="" data-page="page/1" data-folder="cafe1" data-toggle="modal" data-target="#album" class="menu-item">
+						<img src="images/menu1.jpg" alt="">
+						<span>Десерти</span>
+
+					<a href="" data-page="page/2" data-folder="cafe1" data-toggle="modal" data-target="#album" class="menu-item">
+						<img src="images/menu1.jpg" alt="">
+						<span>Кава</span>
+
+					<a href="" data-page="page/3" data-folder="cafe1" data-toggle="modal" data-target="#album" class="menu-item">
+						<img src="images/menu1.jpg" alt="">
+						<span>Сніданки</span>
+
+					<a href="" data-page="page/4" data-folder="cafe1" data-toggle="modal" data-target="#album" class="menu-item">
+						<img src="images/menu1.jpg" alt="">
+						<span>Чай</span>
+
+					<a href="" data-page="page/5" data-folder="cafe1" data-toggle="modal" data-target="#album" class="menu-item">
+						<img src="images/menu1.jpg" alt="">
+						<span>Шоколад, напої</span>			
+					</a>
+				</div>
+
+				<hr>
 			</div>
 		</div>
-	</div>
 
+		<div class="row ">
+			<div class="col-xs-12">
+				<h2>Кава тижня</h2>
 
-	<!-- MENU -->
-	<div id="canvas">
+				<div class="thumb-menu">
+					<a href="" data-page="page/1" data-folder="week-kava" data-toggle="modal" data-target="#album" class="menu-item">
+						<img src="images/menu1.jpg" alt="">
+						<span>бурунді, ефіопія,  санта петрона, кенія</span>
 
-	<div class="zoom-icon zoom-icon-in"></div>
+					<a href="" data-page="page/2" data-folder="week-kava" data-toggle="modal" data-target="#album" class="menu-item">
+						<img src="images/menu1.jpg" alt="">
+						<span>бурунді, ефіопія, хані, кенія</span>
 
-	<div class="magazine-viewport">
-		<div class="container">
-			<div class="magazine">
-				<!-- Next button -->
-				<div ignore="1" class="next-button"></div>
-				<!-- Previous button -->
-				<div ignore="1" class="previous-button"></div>
+					<a href="" data-page="page/3" data-folder="week-kava" data-toggle="modal" data-target="#album" class="menu-item">
+						<img src="images/menu1.jpg" alt="">
+						<span>гонд орг, каскада, ель моліно, кенія</span>	
+					</a>
+				</div>
 			</div>
 		</div>
-	</div>
-
-	<!-- Thumbnails -->
-	<div class="thumbnails">
-		<div>
-			<ul>
-				<li class="i">
-					<img src="pages/1-thumb.jpg" width="76" height="100" class="page-1">
-					<span>1</span>
-				</li>
-				<li class="d">
-					<img src="pages/2-thumb.jpg" width="76" height="100" class="page-2">
-					<img src="pages/3-thumb.jpg" width="76" height="100" class="page-3">
-					<span>2-3</span>
-				</li>
-				<li class="d">
-					<img src="pages/4-thumb.jpg" width="76" height="100" class="page-4">
-					<img src="pages/5-thumb.jpg" width="76" height="100" class="page-5">
-					<span>4-5</span>
-				</li>
-				<li class="d">
-					<img src="pages/6-thumb.jpg" width="76" height="100" class="page-6">
-					<img src="pages/7-thumb.jpg" width="76" height="100" class="page-7">
-					<span>6-7</span>
-				</li>
-				<li class="d">
-					<img src="pages/8-thumb.jpg" width="76" height="100" class="page-8">
-					<img src="pages/9-thumb.jpg" width="76" height="100" class="page-9">
-					<span>8-9</span>
-				</li>
-				<li class="d">
-					<img src="pages/10-thumb.jpg" width="76" height="100" class="page-10">
-					<img src="pages/11-thumb.jpg" width="76" height="100" class="page-11">
-					<span>10-11</span>
-				</li>
-				<li class="i">
-					<img src="pages/12-thumb.jpg" width="76" height="100" class="page-12">
-					<span>12</span>
-				</li>
-			<ul>
-		<div>	
-	</div>
 	</div>
 	<!-- /MENU -->
 </section>

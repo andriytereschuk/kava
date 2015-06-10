@@ -57,6 +57,7 @@ h1 {
 	font-family: 'LatoBlack';
 	text-transform: uppercase;
 	text-align: center;
+	line-height: 1;
 }
 
 ul {
@@ -2575,4 +2576,101 @@ input.in {
 
 .modal-info {
 	text-align: center;
+}
+
+.modal-dialog.modal-menu {
+	width: 90%;
+	height: 92%;
+
+	.modal-content {
+		height: 100%;
+	}
+}
+
+.thumb-menu {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.menu-item {
+	display: inline-block;
+	text-align: center;
+	margin: 0 44px 30px 44px;
+	width: 140px;
+	line-height: 16px;
+
+	img {
+		width: 124px;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	span {
+		font-size: 14px;
+		color: $light;
+		@include ts;
+	}
+
+	&:hover {
+		span {
+			color: $brown;
+		}
+	}
+}
+
+hr {
+	  border-top: 1px solid $border;
+}
+
+.timetable {
+	background-size: cover;
+	height: 306px;
+	text-align: center;
+}
+
+.time-circle {
+	background-color: #fff;
+	width: 215px;
+	height: 215px;
+	border-radius: 50%;
+	border: 3px solid $brown;
+	display: inline-block;
+	margin-top: 42px;
+	text-align: center;
+
+	.i-work {
+		font-size: 14px;
+
+		 b {
+		 	min-width: 40px;
+		 }
+	}
+
+	i {
+		display: block;
+		margin: 24px auto 10px auto;
+	}
+
+	h3 {
+		display: inline-block;
+		border-bottom: 1px solid $border;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		min-width: 160px;
+		margin-top: 0;
+		font-size: 16px;
+	}
+
+	.i-work:last-child {
+		top: 0;
+	}
+}
+
+
+.events-bg {
+	height: 147px;
+	background-image: url('../images/cafe-events-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center 0;
 }

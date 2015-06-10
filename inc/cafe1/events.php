@@ -23,9 +23,7 @@
 				</div>
 
 
-				<div class="events-bg align-center">
-					<img src="images/cafe-events-bg.jpg" alt="">
-				</div>
+				<div class="events-bg"></div>
 			</div>
 		</div>
 	</div>
