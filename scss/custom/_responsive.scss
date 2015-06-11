@@ -143,6 +143,20 @@
 // end $screen-md-max
 
 @media (max-width: $screen-sm-max) {
+	.press {
+		h2 {
+			  margin: 0 0 10px 0;
+			}
+
+
+			a {
+				font-size: 14px;
+				line-height: 14px;
+			}
+	}
+
+
+
 	#slider-cafe .container-full {
 		padding-left: 0;
 		padding-right: 0;
@@ -467,6 +481,22 @@
 }
 
 @media (max-width: $screen-xs-max) {
+	.partners-txt p {
+	  font-size: 17px;
+	}
+
+	.press-info {
+		padding: 0 10px !important;
+	}
+
+	#press .mt-20 {
+		margin-top: 10px	;
+	}
+
+	.press-link {
+		@include text-overflow;
+	}
+
 	.menu-item {
 		width: 50%;
 	  margin: 0 0 30px 0;
@@ -1049,6 +1079,61 @@
 	  left: -15px;
 	  margin-bottom: 25px;
 	}
+
+	.cafe-title {
+		font-size: 20px;
+		margin-bottom: 16px;
+	}
+
+	#modalMap .modal-content { 
+		padding: 40px 10px 10px 10px;
+	}
+
+	.map-title {
+	  font-size: 14px;
+	  letter-spacing: 0.04em;
+	  top: 10px;
+	  left: 10px;
+	}
+
+	.awards-txt {
+		margin-bottom: 30px;
+
+		p {
+			font-size: 16px;
+			line-height: 22px;
+		}
+	}
+
+	.award-item {
+		margin-bottom: 50px;
+	}
+
+	.award-year {
+		font-size: 24px;
+		margin-bottom: 8px;
+	}
+
+	.award-title {
+		font-size: 20px;
+		margin-bottom: 16px;
+	}
+
+	.partners-txt {
+		padding-bottom: 30px;
+	}
+
+	.rez-input {
+
+		.in {
+			padding-right: 56px;
+		}
+
+		button {
+			width: 54px;
+		}
+	}
+
 }
 // end $screen-xs-max
 @media (max-width: 440px) {

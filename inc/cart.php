@@ -50,7 +50,9 @@
 									</div>
 								</td>
 								<td class="align-center">
-									<div class="promo-code">FRG5HK</div>
+									<div class="promo-code">
+										<input type="text" class="in" maxlength="6" placeholder="FDFG3A">
+									</div>
 								</td>
 								<td class="align-center">
 									<span class="cart-discount">40 грн</span>
@@ -93,7 +95,9 @@
 									</div>
 								</td>
 								<td class="align-center">
-									<div class="promo-code"></div>
+									<div class="promo-code">
+										<input type="text" class="in" maxlength="6" placeholder="" disabled>
+									</div>
 								</td>
 								<td class="align-center">
 									<span class="cart-discount">-</span>

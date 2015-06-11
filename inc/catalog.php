@@ -278,6 +278,60 @@
 				<div class="cat-weight">(250 г)</div>
 				<a href="" class="buy">Купити</a>
 			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-12 new hidy">
+				<a href="" class="link-side-4">
+					<img src="images/kava6.jpg" alt="">
+					<span class="link-overlay">
+						<span class="link-text">
+							<h3>Нові</h3>
+							<h2>Сан хосе</h2>
+						</span>
+
+						<span class="more">детальніше</span>
+					</span>
+				</a>
+				
+				<div class="cat-price">285 грн</div>
+				<div class="cat-weight">(250 г)</div>
+				<a href="" class="buy">Купити</a>
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-12 new hidy">
+				<a href="" class="link-side-4">
+					<img src="images/kava6.jpg" alt="">
+					<span class="link-overlay">
+						<span class="link-text">
+							<h3>Нові</h3>
+							<h2>Сан хосе</h2>
+						</span>
+
+						<span class="more">детальніше</span>
+					</span>
+				</a>
+				
+				<div class="cat-price">285 грн</div>
+				<div class="cat-weight">(250 г)</div>
+				<a href="" class="buy">Купити</a>
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-12 new hidy">
+				<a href="" class="link-side-4">
+					<img src="images/kava6.jpg" alt="">
+					<span class="link-overlay">
+						<span class="link-text">
+							<h3>Нові</h3>
+							<h2>Сан хосе</h2>
+						</span>
+
+						<span class="more">детальніше</span>
+					</span>
+				</a>
+				
+				<div class="cat-price">285 грн</div>
+				<div class="cat-weight">(250 г)</div>
+				<a href="" class="buy">Купити</a>
+			</div>
 		</div>
 
 		<div class="row load-section">
@@ -287,55 +341,14 @@
 		</div>
 	</div>
 
-<script>
-	$(function(){
-		
-		$('.load-more').on('click', function(){
-			var w = $(window).width(),
-					countLoad,
-					$container = 	$('.catalog-list'),
-					$items = getItems();
-
-			$container.append($items);
-			showItems();
-
-			function getItems() {
-			  var items = '';
-			  countLoad = (w > 991) ? 3 : 4;
-
-			  for ( var i=0; i < countLoad; i++ ) {
-			    items += getItem(i);
-			  }
-			  // return jQuery object
-			  return $(items);
-			}
-
-			function getItem(index) {
-			  var item = 
-			  '<div class="col-md-4 col-sm-6 col-xs-12 new show'+ index +'">' + 
-			  	'<a href="" class="link-side-4">' +
-			  		'<img src="images/kava6.jpg" alt="">' +
-			  		'<span class="link-overlay">' +
-			  			'<span class="link-text">' +
-			  				'<h3>гондурас</h3>' +
-			  				'<h2>Сан хосе</h2>' +
-			  			'</span>' +
-			  			'<span class="more">детальніше</span>' +
-			  		'</span>' +
-			  	'</a>' +		
-			  	'<div class="cat-price">285 грн</div>' +
-			  	'<div class="cat-weight">(250 г)</div>' +
-			  	'<a href="" class="buy">Купити</a>' +
-			  '</div>';
-
-			  return item;
-			}
-
-			function showItems() {
-				$('.new').addClass('show');
-			}
+	<script>
+		$(function(){				
+			$('.load-more').on('click', function(){
+				$('.new').each(function(i) {
+					$(this).addClass('anim'+i);
+				});
+			});
 		});
-	});
-</script>
+	</script>
 </section>
 <!-- /CATALOG -->

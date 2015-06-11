@@ -169,7 +169,16 @@
 								  </div>
 							</div>
 						</li>
-						<li><a href="">Компанія</a></li>
+						<li><a onclick="return false;" href="javascript:void(0);">Компанія</a>
+							<div class="menu2">
+						  	<ul class="menu2-nav simple-menu">
+						  		<li><a href="">Палярня</a></li>
+						  		<li><a href="">Кав’ярні</a></li>
+						  		<li><a href="">Крамниця</a></li>
+						  		<li><a href="">Кондитерська</a></li>
+						  	</ul>
+							</div>
+						</li>
 						<li><a href="">Школа</a></li>
 						<li><a href="">Блог</a></li>
 						<li><a href="">Контакти</a></li>

@@ -10,10 +10,12 @@
 			<div class="col-md-5 col-lg-4 col-sm-6">
 				<h1>Сан хосе</h1>
 				<h2>гондурас</h2>
-				<a href="" class="show-map">
+				<a href="" class="show-map" data-toggle="modal" data-target="#modalMap">
 					<i class="icon-location"></i>
 					<span>Карта</span>
 				</a>
+
+			<?php include_once('inc/map-popup.php'); ?>
 
 				<div class="clr"></div>
 
@@ -24,7 +26,9 @@
 
 				<div class="product-code">
 					<div class="ll">Акційний код </div>
-					<div class="promo-code">FRG5HK</div>
+					<div class="promo-code">
+						<input type="text" class="in" maxlength="6" placeholder="">
+					</div>
 				</div>
 
 				<div class="product-degree">
