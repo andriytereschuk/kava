@@ -52,29 +52,6 @@
 						<span>Шоколад, напої</span>			
 					</a>
 				</div>
-
-				<hr>
-			</div>
-		</div>
-
-		<div class="row ">
-			<div class="col-xs-12">
-				<h2>Кава тижня</h2>
-
-				<div class="thumb-menu">
-					<a href="" data-page="page/1" data-folder="week-kava" data-toggle="modal" data-target="#album" class="menu-item">
-						<img src="images/menu1.jpg" alt="">
-						<span>бурунді, ефіопія,  санта петрона, кенія</span>
-
-					<a href="" data-page="page/2" data-folder="week-kava" data-toggle="modal" data-target="#album" class="menu-item">
-						<img src="images/menu1.jpg" alt="">
-						<span>бурунді, ефіопія, хані, кенія</span>
-
-					<a href="" data-page="page/3" data-folder="week-kava" data-toggle="modal" data-target="#album" class="menu-item">
-						<img src="images/menu1.jpg" alt="">
-						<span>гонд орг, каскада, ель моліно, кенія</span>	
-					</a>
-				</div>
 			</div>
 		</div>
 	</div>

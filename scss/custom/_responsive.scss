@@ -168,6 +168,43 @@
 // end $screen-md-max
 
 @media (max-width: $screen-sm-max) {
+	.pro-img-wrap {
+		overflow: visible;
+		margin-bottom: 65px;
+
+		&:hover {
+			.share-pro {
+				bottom: -45px;
+			}
+		}
+	}
+
+	.share-pro {
+		height: 45px;
+		bottom: -45px;
+	}
+
+	.share-txt {
+		font-size: 14px;
+		line-height: 45px;
+		padding-left: 10px;
+	}
+
+	.share-btns {
+		padding-right: 5px;
+
+		a {
+			display: inline-block;
+			margin-right: 4px;
+			margin-top: 7px;
+			@include ts;
+
+			img {
+				width: 32px;
+			}
+		}
+	}
+
 	.press {
 		h2 {
 			  margin: 0 0 10px 0;
@@ -957,9 +994,6 @@
 	  padding: 0 0 20px 0;
 	}
 
-	.product-img {
-		margin-bottom: 20px;
-	}
 
 	// cart
 
@@ -1219,6 +1253,7 @@
 	// product
 	.product h2 {
 		float: none;
+		margin-bottom: 10px;
 	}
 
 	.show-map {

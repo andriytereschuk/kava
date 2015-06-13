@@ -4,7 +4,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-full col-md-7 col-lg-8 col-sm-6">
-				<img class="product-img" src="images/eq.jpg" alt="">
+				<div class="pro-img-wrap">
+					<img class="product-img" src="images/eq.jpg" alt="">
+					<div class="share-pro">
+						<div class="share-txt">Поділитися</div>
+						<div class="share-btns">
+							<a href=""><img src="images/fb-share.png" alt=""></a>
+							<a href=""><img src="images/g-share.png" alt=""></a>
+							<a href=""><img src="images/ln-share.png" alt=""></a>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<div class="col-md-5 col-lg-4 col-sm-6">
