@@ -39,6 +39,31 @@
 }
 
 @media (max-width: $screen-md-max) {
+	.item-1x1 {
+		width: 50%;
+		height: 300px;
+	}
+
+	.item-2x1 {
+		width: 50%;
+		height: 300px;
+	}
+
+	.item-1x2 {
+		width: 50%;
+		height: 600px;
+	}
+
+	.item-2x2 {
+		width: 100%;
+		height: 600px;
+	}
+
+	.grid-item {
+	  float: left;
+	  padding: 10px;
+	}
+
 	.menu-item {
 		margin: 0 24px 30px 24px;
 	}
@@ -1136,6 +1161,34 @@
 
 }
 // end $screen-xs-max
+
+
+@media (max-width: 620px) {
+	.item-1x1 {
+		width: 100%;
+		height: 280px;
+	}
+
+	.item-2x1 {
+		width: 100%;
+		height: 280px;
+	}
+
+	.item-1x2 {
+		width: 100%;
+		height: 560px;
+	}
+
+	.item-2x2 {
+		width: 100%;
+		height: 560px;
+	}
+
+	.grid-item {
+	  padding: 5px 10px;
+	}
+}
+
 @media (max-width: 440px) {
 	.skillsPieChart {
 		canvas {
