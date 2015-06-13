@@ -14,9 +14,6 @@
 
 	<div class="container container-grid">
 		<div class="grid">
-			<!-- func-blok - not item -->
-			<div class="grid-sizer"></div>
-
 			<div class="grid-item item-1x1">
 				<div class="item-img" style="background-image:url(images/kavart2.jpg)">
 					<div class="item-desc item-bottom-left"><span></span><b>«Святий Миколай»</b></div>
@@ -81,9 +78,7 @@
 	
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script>
-	$(window).load(function(){
-		var window_resize;
-
+	$(function() {
 		var $grid = $('.grid').masonry({
 		  itemSelector: '.grid-item',
 		 	percentPosition: true,
