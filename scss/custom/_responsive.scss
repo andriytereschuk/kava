@@ -39,6 +39,7 @@
 }
 
 @media (max-width: $screen-md-max) {
+
 	.p-grid-item {
 	  height: 380px;
 	  padding: 15px;
@@ -176,15 +177,28 @@
 		width: 100%;
 	}
 
+	.cafe-desc p {
+		width: 90%;
+	}
+
 }
 
 // end $screen-md-max
 
 @media (max-width: $screen-sm-max) {
-	.cafe-desc p {
-		margin-top: 0;
+	.history2 {
+		background-color: #fff;
+		padding: 0;
 	}
-	
+
+	.history-desc {
+		padding: 0;
+	}
+
+	.cafe-desc p {
+		width: 100%;
+	}
+
 	.p-grid-item {
 	  width: 50%;
 	  height: 400px;
@@ -580,6 +594,30 @@
 		width: 100%;
 	}
 
+	.v-table {
+		margin-bottom: 60px;
+
+		th {
+			background-color: #fff;
+			padding-left: 10px;
+
+			&:first-child {
+				padding-left: 30px;
+			}
+		}
+
+		td {
+			height: 120px;
+			padding-left: 10px;
+			font-size: 14px;
+			line-height: 16px;
+
+			&:first-child {
+				padding-left: 30px;
+			}
+		}
+	}
+
 }
 
 // end $screen-sm-max
@@ -593,6 +631,67 @@
 }
 
 @media (max-width: $screen-xs-max) {
+	.x-scroll {
+		overflow-x: auto;
+		margin-bottom: 40px;
+	}
+
+	.v-table {
+		margin-bottom: 0;
+
+		th {
+			background-color: #fff;
+			padding-left: 10px;
+
+			&:first-child {
+				padding-left: 10px;
+			}
+		}
+
+		td {
+			height: 100px;
+			padding-left: 10px;
+			white-space: nowrap;
+
+			&:first-child {
+				padding-left: 10px;
+			}
+		}
+
+		.red-btn {
+			font-size: 12px;
+			white-space: nowrap;
+		}
+	}
+
+	.history3 {
+		height: 210px;
+	}
+
+	.history3 h3 {
+	  font-size: 17px;
+	  line-height: 26px;
+	}
+
+	.history-desc {
+		display: block;
+
+		img {
+			margin: 0;
+			width: 100%;
+			width: calc(100% + 30px);
+			position: relative;
+			left: -15px;
+		}
+
+		p {
+			margin: 20px 0;
+			padding: 0;
+			color: $black;
+			width: 100%;
+		}
+	}
+
 	.partners-txt p {
 	  font-size: 17px;
 	}
