@@ -16,49 +16,49 @@
 		<div class="grid">
 			<div class="grid-item item-1x1">
 				<div class="item-img" style="background-image:url(images/kavart2.jpg)">
-					<div class="item-desc item-bottom-left"><span></span><b>«Святий Миколай»</b></div>
+					<div class="item-desc item-bottom-left"><span></span><b>«Покрова»</b></div>
 				</div>
 			</div>
 
 			<div class="grid-item item-2x1">
 				<div class="item-img" style="background-image:url(images/kavart10.jpg)">
-					<div class="item-desc item-bottom-left white"><span>Остап Лозинський</span> <b>«Святий Миколай»</b></div>
+					<div class="item-desc item-bottom-left white"><span>Ромко Зілінко</span> <b>«Різдво» (шопка)</b></div>
 				</div>
 			</div>
 
 			<div class="grid-item item-1x1">
 				<div class="item-img" style="background-image:url(images/kavart3.jpg)">
-					<div class="item-desc item-top-left"><span></span> <b>«Святий Миколай»</b></div>
+					<div class="item-desc item-top-left"><span></span> <b></b></div>
 				</div>
 			</div>
 
 			<div class="grid-item item-2x2">
 				<div class="item-img" style="background-image:url(images/kavart8.jpg)">
-					<div class="item-desc item-bottom-left"><span>Остап Лозинський</span> <b></b></div>
+					<div class="item-desc item-bottom-left"><span>Оля Кравченко</span> <b></b></div>
 				</div>
 			</div>
 
 			<div class="grid-item item-1x2">
 				<div class="item-img" style="background-image:url(images/kavart11.jpg)">
-					<div class="item-desc"><span></span> <b></b></div>
+					<div class="item-desc"><span>Уляна Нищук-Борисяк</span> <b>«Покрова»</b></div>
 				</div>
 			</div>
 
 			<div class="grid-item item-1x2">
 				<div class="item-img" style="background-image:url(images/kavart12.jpg)">
-					<div class="item-desc"><span>Остап Лозинський</span> <b>«Святий Миколай»</b></div>
+					<div class="item-desc"><span>Уляна Нищук-Борисяк</span> <b>«Різдво»</b></div>
 				</div>
 			</div>
 
 			<div class="grid-item item-1x2">
 				<div class="item-img" style="background-image:url(images/kavart4.jpg)">
-					<div class="item-desc item-top-right"><span></span> <b>«Святий Миколай»</b></div>
+					<div class="item-desc item-top-right"><span>Уляна Нищук-Борисяк</span> <b>«Миколай»</b></div>
 				</div>
 			</div>
 
 			<div class="grid-item item-2x2">
 				<div class="item-img" style="background-image:url(images/kavart1.jpg)">
-					<div class="item-desc item-top-left"><span>Остап Лозинський</span> <b>«Святий Миколай»</b></div>
+					<div class="item-desc item-top-left"><span>Уляна Нищук-Борисяк</span> <b>«Хатня»</b></div>
 				</div>
 			</div>
 
@@ -70,7 +70,7 @@
 
 			<div class="grid-item item-1x1">
 				<div class="item-img" style="background-image:url(images/kavart7.jpg)">
-					<div class="item-desc item-bottom-left"><span></span> <b>«Святий Миколай»</b></div>
+					<div class="item-desc item-bottom-left"><span></span> <b></b></div>
 				</div>
 			</div>
 		</div>
