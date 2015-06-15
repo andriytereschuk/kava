@@ -14,63 +14,88 @@
 
 	<div class="container container-grid">
 		<div class="grid">
-			<div class="grid-item item-1x1">
-				<div class="item-img" style="background-image:url(images/kavart2.jpg)">
-					<div class="item-desc item-bottom-left"><span></span><b>«Покрова»</b></div>
+			<div class="grid-item grid-sizer"></div>
+			<div class="grid-item width-2">
+				<div class="item-img">
+					<img src="images/kavart1.jpg" alt="">
+						<div class="item-desc item-bottom-left"><span>Уляна Нищук-Борисяк</span> <b>«ХАТНЯ»</b></div>
+					</div>
+			</div>
+
+			<div class="grid-item">
+				<div class="item-img">
+					<img src="images/kavart2.jpg" alt="">
+					<div class="item-desc item-bottom-left"><span>Оля Кравченко</span> <b>«Покрова»</b></div>
 				</div>
 			</div>
 
-			<div class="grid-item item-2x1">
-				<div class="item-img" style="background-image:url(images/kavart10.jpg)">
-					<div class="item-desc item-bottom-left white"><span>Ромко Зілінко</span> <b>«Різдво» (шопка)</b></div>
-				</div>
+			<div class="grid-item">
+				<div class="item-img">
+					<img src="images/kavart3.jpg" alt="">
+						<div class="item-desc"><span></span> <b></b></div>
+					</div>
 			</div>
 
-			<div class="grid-item item-1x1">
-				<div class="item-img" style="background-image:url(images/kavart3.jpg)">
-					<div class="item-desc item-top-left"><span></span> <b></b></div>
-				</div>
-			</div>
-
-			<div class="grid-item item-2x2">
-				<div class="item-img" style="background-image:url(images/kavart8.jpg)">
-					<div class="item-desc item-bottom-left"><span>Оля Кравченко</span> <b></b></div>
-				</div>
-			</div>
-
-			<div class="grid-item item-1x2">
-				<div class="item-img" style="background-image:url(images/kavart11.jpg)">
-					<div class="item-desc"><span>Уляна Нищук-Борисяк</span> <b>«Покрова»</b></div>
-				</div>
-			</div>
-
-			<div class="grid-item item-1x2">
-				<div class="item-img" style="background-image:url(images/kavart12.jpg)">
-					<div class="item-desc"><span>Уляна Нищук-Борисяк</span> <b>«Різдво»</b></div>
-				</div>
-			</div>
-
-			<div class="grid-item item-1x2">
-				<div class="item-img" style="background-image:url(images/kavart4.jpg)">
+			<div class="grid-item">
+				<div class="item-img">
+					<img src="images/kavart4.jpg" alt="">
 					<div class="item-desc item-top-right"><span>Уляна Нищук-Борисяк</span> <b>«Миколай»</b></div>
 				</div>
 			</div>
 
-			<div class="grid-item item-2x2">
-				<div class="item-img" style="background-image:url(images/kavart1.jpg)">
-					<div class="item-desc item-top-left"><span>Уляна Нищук-Борисяк</span> <b>«Хатня»</b></div>
+			<div class="grid-item">
+				<div class="item-img">
+					<img src="images/kavart5.jpg" alt="">
+					<div class="item-desc item-top-left"><span>Уляна Нищук-Борисяк</span> <b>«Параскева»</b></div>
 				</div>
 			</div>
 
-			<div class="grid-item item-1x1">
-				<div class="item-img" style="background-image:url(images/kavart6.jpg)">
-					<div class="item-desc item-bottom-left"><span></span> <b></b></div>
+			<div class="grid-item">
+				<div class="item-img">
+					<img src="images/kavart6.jpg" alt="">
+					<div class="item-desc item-bottom-left"><span>Остап Лозинський</span> <b>«Святий Миколай»</b></div>
 				</div>
 			</div>
 
-			<div class="grid-item item-1x1">
-				<div class="item-img" style="background-image:url(images/kavart7.jpg)">
-					<div class="item-desc item-bottom-left"><span></span> <b></b></div>
+			<div class="grid-item">
+				<div class="item-img">
+					<img src="images/kavart7.jpg" alt="">
+					<div class="item-desc"><span></span> <b></b></div>
+				</div>
+			</div>
+
+			<div class="grid-item">
+				<div class="item-img">
+					<img src="images/kavart8.jpg" alt="">
+					<div class="item-desc item-bottom-left"><span>Оля Кравченко</span> <b></b></div>
+				</div>
+			</div>
+
+			<div class="grid-item">
+				<div class="item-img">
+					<img src="images/kavart9.jpg" alt="">
+					<div class="item-desc item-bottom-left"><span>Остап Лозинський</span> <b>«Покрова»</b></div>
+				</div>
+			</div>
+
+			<div class="grid-item">
+				<div class="item-img">
+					<img src="images/kavart11.jpg" alt="">
+					<div class="item-desc item-bottom-left"><span>Уляна Нищук-Борисяк</span> <b>«Покрова»</b></div>
+				</div>
+			</div>
+
+			<div class="grid-item">
+				<div class="item-img">
+					<img src="images/kavart12.jpg" alt="">
+					<div class="item-desc item-bottom-left"><span>Уляна Нищук-Борисяк</span> <b>«Різдво»</b></div>
+				</div>
+			</div>
+
+			<div class="grid-item width-2">
+				<div class="item-img">
+					<img src="images/kavart10.jpg" alt="">
+					<div class="item-desc item-bottom-left white"><span>Ромко Зілінко</span> <b>«Різдво» (шопка)</b></div>
 				</div>
 			</div>
 		</div>
@@ -78,7 +103,7 @@
 	
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script>
-	$(function() {
+	$(function(){
 		var $grid = $('.grid').masonry({
 		  itemSelector: '.grid-item',
 		 	percentPosition: true,
