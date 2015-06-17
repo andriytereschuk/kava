@@ -165,6 +165,24 @@
 
 // end $screen-md-max
 
+@media (max-width: 1200px) {
+	.k-title {
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+
+	.k-subtitle {
+		font-size: 40px;
+		margin-bottom: 18px;
+	}
+
+	.k-text {
+		padding-top: 16px;
+		font-size: 28px;
+		margin-bottom: 38px;
+	}
+}
+
 @media (max-width: $screen-sm-max) {
 	.grid-item {
 		width: 50%;
@@ -1370,6 +1388,46 @@
 		right: 5px;
 		bottom: 5px;
 		text-align: right;
+	}
+
+	.k-content {
+		width: 100%;
+		padding: 0 10px;
+		text-align: left;
+		line-height: 1.1;
+	}
+
+	.k-slider .swiper-pagination {
+	  text-align: center;
+	  bottom: 15px !important;
+	}
+
+	.k-slider {
+	  height: 350px;
+	}
+
+	.k-title {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.k-subtitle {
+		font-size: 24px;
+		margin-bottom: 12px;
+	}
+
+	.k-text {
+		padding-top: 15px;
+		font-size: 20px;
+		margin-bottom: 28px;
+	}
+
+	.k-cource-list a {
+		font-size: 16px;
+	}
+
+	.k-cource-list h2 {
+		font-size: 32px;
 	}
 
 }

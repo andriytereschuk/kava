@@ -397,7 +397,7 @@ nav {
 	@include tsp(opacity, ease, 0.3s);
 	overflow: hidden;
 	height: 0;
-	z-index: 3;
+	z-index: 4;
 
 	.tab-pane {
 		padding-top: 15px;
@@ -3432,4 +3432,149 @@ hr {
 
 .position {
 	color: $brown;
+}
+
+
+// school
+
+.k-slider {
+	height: 574px;
+
+	.swiper-slide {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		@include flexblok;
+	}
+
+	.swiper-pagination {
+		text-align: center;
+		bottom: 60px !important;
+	}
+
+	.swiper-pagination-bullet {
+		width: 12px;
+		height: 12px;
+		display: inline-block;
+		border-radius: 100%;
+		background: transparent;
+		opacity: 0.6;
+		border: 1px solid #fff;
+		position: relative;
+		@include tsp(opacity, ease, 0.4s);
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	.swiper-pagination-bullet-active {
+		width: 16px;
+		height: 16px;
+		background: transparent;
+		border: 3px solid #fff;
+		opacity: 1;
+		top: 2px;
+	}
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url('../images/k-slider.jpg');
+  width: 115%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.k-content {
+	width: 50%;
+	text-align: right;
+	margin: auto 0;
+	line-height: 1;
+
+	.red-btn {
+		font-size: 14px;
+		padding: 0 50px;
+	}
+}
+
+.k-title {
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+
+.k-subtitle {
+	font-size: 48px;
+	font-family: 'LatoBlack';
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.k-text {
+	display: inline-block;
+	padding-top: 18px;
+	border-top: 1px solid #fff;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.k-white {
+	color: #fff;
+}
+
+.k-red {
+	font-family: 'LatoBlack';
+	color: $red;
+}
+
+// calendar
+
+#k-course {
+	padding-top: 60px;
+}
+
+#calendar {
+	width: 100%;
+}
+
+.k-cource-list {
+	padding-top: 21px;
+
+	h2 {
+		font-size: 36px;
+		font-family: 'LatoBlack';
+		text-transform: uppercase;
+		margin-bottom: 35px;
+	}
+
+	ul {}
+
+	li {
+		border-bottom: 1px solid $border;
+		padding: 18px 0;
+
+		&:first-child {
+			border-top: 1px solid $border;
+		}
+	}
+
+	a {
+		color: $black;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-size: 18px;
+		line-height: 1;
+		font-weight: bold;
+		@include ts(ease,0.1s);
+
+		&:hover {
+			color: $brown;
+		}
+	}
 }
