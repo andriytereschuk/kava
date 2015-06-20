@@ -21,7 +21,9 @@
 				<div class="award-item">
 					<div class="award-year">2009</div>
 					<div class="award-title">Найкраща кав’ярня року</div>
-					<img src="images/award1.jpg" alt="">
+					<a class="fancy" href="images/award1.jpg" data-fancybox-group="gallery">
+						<img src="images/award1.jpg" alt="">
+					</a>
 				</div>
 			</div>
 
@@ -29,7 +31,9 @@
 				<div class="award-item">
 					<div class="award-year">2010</div>
 					<div class="award-title">Найкраща кав’ярня року</div>
-					<img src="images/award2.jpg" alt="">
+					<a class="fancy" href="images/award2.jpg" data-fancybox-group="gallery">
+						<img src="images/award2.jpg" alt="">
+					</a>
 				</div>
 			</div>
 
@@ -37,7 +41,9 @@
 				<div class="award-item">
 					<div class="award-year">2012</div>
 					<div class="award-title">Найкраща кав’ярня року</div>
-					<img src="images/award3.jpg" alt="">
+					<a class="fancy" href="images/award3.jpg" data-fancybox-group="gallery">
+						<img src="images/award3.jpg" alt="">
+					</a>
 				</div>
 			</div>
 
@@ -45,10 +51,25 @@
 				<div class="award-item">
 					<div class="award-year">2013</div>
 					<div class="award-title">Найкраща кав’ярня року</div>
-					<img src="images/award4.jpg" alt="">
+					<a class="fancy" href="images/award4.jpg" data-fancybox-group="gallery">
+						<img src="images/award4.jpg" alt="">
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<script src="fancybox/jquery.fancybox.js?v=2.1.4"></script>
+	<script src="fancybox/jquery.mousewheel.js"></script>
+	<link rel="stylesheet" href="fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+
+	<script>
+	$(function(){
+		$('.fancy').fancybox({
+			openEffect : 'elastic',
+			closeEffect : 'elastic'
+		});
+	});
+	</script>
 </section>
 <!-- /Awards -->

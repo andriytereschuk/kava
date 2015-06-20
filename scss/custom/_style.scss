@@ -993,6 +993,7 @@ footer {
 			font-size: 18px;
 			text-transform: uppercase;
 			margin-bottom: 20px;
+			cursor: pointer;
 
 			i {
 				margin-left: 3px;
@@ -1008,6 +1009,11 @@ footer {
 	padding: 15px 0;
 	overflow: hidden;
 	margin-bottom: 30px;
+	display: none;
+
+	&.category-show {
+		display: block;
+	}
 
 	ul {
 		li {
@@ -1025,6 +1031,20 @@ footer {
 			}
 		}
 	}
+}
+
+#catalog .headings {
+	h2 {
+		  i {
+		  	@include sprite($icon, icon-nav);
+		  }
+
+		  &.open {
+		  	i {
+					@include sprite($icon, icon-down-big);
+		  	}
+		  }
+		}
 }
 
 .catalog-list {
@@ -2833,8 +2853,14 @@ hr {
 	text-align: center;
 	margin-bottom: 60px;
 
+	a {
+		display: block;
+	}
+
+
 	img {
 		width: 100%;
+		vertical-align: top;
 	}
 }
 

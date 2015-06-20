@@ -451,31 +451,12 @@
 		margin-bottom: 20px;
 	}
 
-	.category {
-		display: none;
-
-		&.category-show {
-			display: block;
-		}
-	}
 
 	#catalog .headings {
 		h1 {
 			  font-size: 32px;
 			  line-height: 38px;
 			  margin: 15px 0 15px 0;
-			}
-
-		h2 {
-			  i {
-			  	@include sprite($icon, icon-nav);
-			  }
-
-			  &.open {
-			  	i {
-						@include sprite($icon, icon-down-big);
-			  	}
-			  }
 			}
 	}
 
