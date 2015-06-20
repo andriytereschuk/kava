@@ -13,7 +13,7 @@
 	<title>Світ кави</title>
 
 	<!-- FAVICON -->
-	<link rel="shortcut icon" href=""/>
+	<link rel="shortcut icon" href="images/favicon.ico"/>
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

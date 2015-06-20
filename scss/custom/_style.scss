@@ -1119,6 +1119,10 @@ footer {
 	@include anim(show, ease-out, 0.5s, 0.2s);
 }
 
+.anim3 {
+	@include anim(show, ease-out, 0.5s, 0.3s);
+}
+
 
 @include keyframes('show') { 
 	from {
@@ -1432,7 +1436,7 @@ p {
 
 		th {
 			height: 55px;
-			color: $light;
+			color: $grey;
 			font-weight: normal;
 			padding: 0 10px;
 			background-color: #fff;
@@ -2149,6 +2153,10 @@ article, .cafe-desc {
 	background-color: #fff;
 	padding: 28px 22px 30px 22px;
 
+	&.pb-0 {
+		padding-bottom: 0;
+	}
+
 	h2 {
 		text-transform: uppercase;
 		font-weight: bold;
@@ -2234,6 +2242,12 @@ article, .cafe-desc {
 .soc-others {
 	text-align: center;
 	padding: 5px 0 10px 0;
+
+	h3 {
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+	}
 
 	a {
 		display: inline-block;
@@ -3435,7 +3449,7 @@ hr {
 		background-color: #fff;
 		padding-left: 20px;
 		font-size: 14px;
-		color: $light;
+		color: $grey;
 		font-weight: normal;
 		height: 56px;
 		text-align: left;
@@ -3602,5 +3616,133 @@ hr {
 		&:hover {
 			color: $brown;
 		}
+	}
+}
+
+.desc2 {
+	p {
+		width: 100% !important;
+		text-align: left;
+	}
+
+	img {
+		margin-bottom: 30px;
+	}
+
+	iframe {
+		width: 100%;
+		height: 430px;
+	}
+
+	.cafe-desc {
+		padding-bottom: 20px;
+	}
+}
+
+.c-table {
+	margin-bottom: 30px;
+
+	th {
+		background-color: #fff;
+		padding-left: 20px;
+		font-size: 14px;
+		color: $grey;
+		font-weight: normal;
+		height: 56px;
+		text-align: left;
+	}
+
+	td {
+		border-bottom: 1px solid $border;
+		height: 66px;
+		padding-left: 20px;
+
+		&:nth-child(1) {
+			width: 205px;
+		}
+
+		&:nth-child(3) {
+			width: 240px;
+		}
+
+
+		a {
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.download-sec {
+	text-align: center;
+	padding: 10px 0;
+	border-top: 1px solid $border;
+	border-bottom: 1px solid $border;
+	margin-bottom: 10px;
+
+	a {
+		color: $brown;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	img {
+		position: relative;
+		margin-left: 10px;
+		top: 10px;
+	}
+}
+
+.course-info {
+	border-bottom: 1px solid $border;
+	padding-bottom: 5px;
+
+	h3 {
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+}
+
+.course-left {
+	float: left;
+	font-weight: bold;
+}
+
+.course-right {
+	float: right;
+	color: $light;
+}
+
+.course-item {
+	@include clearfix();
+	margin-bottom: 15px;
+}
+
+.course-price {
+	padding: 24px 0;
+	border-bottom: 1px solid $border;
+	@include clearfix();
+}
+
+.cprice {
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	float: left;
+}
+
+.cvalue {
+	color: $light;
+	float: right;
+
+	span {
+		color: $brown;
+		font-size: 24px;
 	}
 }
