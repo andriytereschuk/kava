@@ -103,7 +103,7 @@
 	
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script>
-	$(function(){
+	$(window).load(function(){
 		var $grid = $('.grid').masonry({
 		  itemSelector: '.grid-item',
 		 	percentPosition: true,
