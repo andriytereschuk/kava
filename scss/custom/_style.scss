@@ -1409,17 +1409,16 @@ p {
 	}
 }
 
-#recomends {
-	.heading h2 {
-		font-size: 18px;
-		font-weight: bold;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-		border-bottom: 1px solid $border;
-		margin: 0 0 30px 0;
-		padding-bottom: 5px;
-	}
+.heading h2 {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	border-bottom: 1px solid $border;
+	margin: 0 0 30px 0;
+	padding-bottom: 5px;
 }
+
 
 // Cart
 
@@ -3780,7 +3779,8 @@ hr {
 
 .event-link {
 	display: block;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
+	min-height: 486px;
 
 	img {
 		width: 100%;
@@ -3967,4 +3967,12 @@ hr {
 
 #slider-mobile {
 	display: none;
+}
+
+// --------
+
+#events {
+	.page-nav {
+		padding-top: 30px;
+	}
 }

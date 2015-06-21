@@ -656,6 +656,10 @@
 		margin-right: 20px;
 	}
 
+	.event-link {
+		min-height: 400px;
+	}
+
 }
 
 // end $screen-sm-max
@@ -669,6 +673,11 @@
 }
 
 @media (max-width: $screen-xs-max) {
+	.event-link {
+		min-height: auto;
+		margin-bottom: 30px;
+	}
+
 	.slider-t2 .swiper-slide {
 		display: block;
 	}
