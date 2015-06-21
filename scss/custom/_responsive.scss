@@ -191,10 +191,13 @@
 }
 
 @media (max-width: $screen-sm-max) {
+	.slider-t1 {
+		display: none;
+	}
 	.course-left, .course-right {
 		float: none;
 	}
-	
+
 	.grid-item {
 		width: 50%;
 	}
@@ -623,6 +626,36 @@
 		}
 	}
 
+	#slider-mobile {
+		display: block;
+	}
+
+	#slider-desctop {
+		display: none;
+	}
+
+	.icon-down-slider {
+		@include rotate(-90deg);
+		right: -5px;
+	  top: 240px;
+	  left: auto;
+	}
+
+	.icon-top-slider {
+		@include rotate(-90deg);
+		left: -5px;
+		top: 240px;
+	}
+
+	.slider-t2 .t-img {
+		margin-right: 30px;
+		margin-left: 20px;
+	}
+
+	.t-text {
+		margin-right: 20px;
+	}
+
 }
 
 // end $screen-sm-max
@@ -636,6 +669,64 @@
 }
 
 @media (max-width: $screen-xs-max) {
+	.slider-t2 .swiper-slide {
+		display: block;
+	}
+
+	.slider-t2 .t-img {
+		margin-left: 0;
+	}
+
+	.t-text {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	#slider-mobile {
+		display: block;
+	}
+
+	.t-info {
+		overflow: hidden;
+		height: 122px
+	}
+
+	.t-text .soc-others {
+		text-align: center;
+		margin-top: 5px;
+	}
+
+	.icon-down-slider {
+		@include rotate(-90deg);
+		right: 10px;
+	  top: 140px;
+	  left: auto;
+	}
+
+	.icon-top-slider {
+		@include rotate(-90deg);
+		left: 10px;
+		top: 140px;
+	}
+
+	.t-arrows {
+
+	}
+
+	#k-treners {
+		background-image: url('../images/k-treners2.jpg');
+		height: 490px;
+	}
+
+	.slider-t2 .t-img {
+		margin: 30px 0 15px 0;
+		text-align: center;
+
+		img {
+			width: 220px;
+			height: 220px;
+		}
+	}
 	.x-scroll {
 		overflow-x: auto;
 		margin-bottom: 40px;
@@ -1598,3 +1689,4 @@
 			}
 	}
 }
+

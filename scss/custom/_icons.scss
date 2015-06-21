@@ -123,3 +123,13 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-link {
 	@include sprite($icon, icon-link);
 }
+
+.icon-down-slider {
+	@include sprite($icon, icon-down-slider);
+}
+
+.icon-top-slider {
+	@include sprite($icon, icon-top-slider);
+}
+
+

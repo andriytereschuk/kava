@@ -3577,6 +3577,7 @@ hr {
 
 #k-course {
 	padding-top: 60px;
+	padding-bottom: 80px;
 }
 
 #calendar {
@@ -3745,4 +3746,225 @@ hr {
 		color: $brown;
 		font-size: 24px;
 	}
+}
+
+// school events
+
+.h-link {
+	text-align: center;
+	margin-bottom: 38px;
+
+	a {
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: $black;
+		font-weight: bold;
+		position: relative;
+
+		&:after {
+			content:'';
+			position: absolute;
+			width: 100%;
+			left: 0;
+			bottom: -4px;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		&:hover:after {
+			display: none;
+		}
+	}
+}
+
+.event-link {
+	display: block;
+	margin-bottom: 30px;
+
+	img {
+		width: 100%;
+		margin-bottom: 12px;	
+		@include ts(ease-in-out, 0.5s);	
+	}
+
+	&:hover {
+		img {
+			-webkit-filter: grayscale(1);
+			  filter: grayscale(1);
+		}
+	}
+}
+
+.event-date {
+	margin-bottom: 3px;
+	color: $brown;
+	display: block;
+}
+
+.event-title {
+	font-weight: bold;
+	margin-bottom: 8px;
+	display: block;
+	color: $black;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.event-desc {
+	color: #616161;
+	line-height: 18px;
+	display: block;
+}
+
+#k-events {
+	background-color: #fff;
+	padding: 50px 0 30px 0;
+}
+
+// Treners
+
+#k-treners {
+	height: 486px;
+	background-image: url('../images/k-treners.jpg');
+	background-position: center 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.slider-t1 {
+	height: 486px;
+	width: 100%;
+
+	.swiper-slide {
+		width: 100%;
+		padding: 1px 0;
+
+		&.active {
+			.thomb-t {
+				background-color: rgba(255,255,255,0.5);
+				cursor: default;
+
+				&:hover {
+					background-color: rgba(255,255,255,0.5);
+				}
+			}
+		}
+	}
+}
+
+.thomb-t {
+	width: 120px;
+	background-color: rgba(255,255,255,0.25);
+	@include ts(ease,0.15s);
+	text-align: center;
+	height: 100%;
+	cursor: pointer;
+	@include ts;
+
+	&:hover {
+		background-color: rgba(255,255,255,0.35);
+	}
+
+	img {
+		width: 54px;
+		height: 54px;
+		border: 2px solid #fff;
+		border-radius: 50%;
+		margin-top: 12px;
+		margin-bottom: 7px;
+	}
+}
+
+.t-name {
+	font-size: 14px;
+	line-height: 16px;
+	@include text-overflow();
+}
+
+// ---------------------
+
+.slider-t2 {
+	height: 486px;
+	width: 100%;
+
+	.swiper-slide {
+		height: 100%;
+		width: 100%;
+		@include flexblok;
+	}
+
+	.t-img {
+		display: block;
+		margin: auto;
+		-webkit-flex-basis: 310px;
+		-ms-flex-preferred-size: 310px;
+		flex-basis: 310px;
+		-webkit-flex-shrink: 0;
+		-ms-flex-shrink: 0;
+		flex-shrink: 0;
+		margin-right: 50px;
+
+		img {
+			width: 298px;
+			height: 298px;
+			border-radius: 100%;
+			border: 4px solid #F0EEE7;
+		}
+	}
+}
+
+.t-link {
+		display: block;
+		color: $black;
+		font-size: 26px;
+		font-weight: bold;
+		margin-bottom: 16px;
+	}
+
+.t-text {
+	margin: auto;
+
+	.soc-others {
+		text-align: left;
+
+		a {
+			opacity: 0.8;
+			@include ts;
+			margin: 0 10px 0 0;
+
+			&:hover {
+				opacity: 0.9;
+			}
+		}
+	}
+}
+
+.t-info {
+	line-height: 20px;
+	color: $black;
+}
+
+.t-arrows {
+	position: absolute;
+	left: 140px;
+	z-index: 3;
+	cursor: pointer;
+	@include ts;
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+.icon-down-slider {
+	bottom: 55px;
+}
+
+.icon-top-slider {
+	top: 55px;
+}
+
+#slider-mobile {
+	display: none;
 }
