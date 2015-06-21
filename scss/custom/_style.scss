@@ -3976,3 +3976,94 @@ hr {
 		padding-top: 30px;
 	}
 }
+
+#coach .cafe-desc h2 {
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid $border;
+}
+
+#sertificates {
+
+	a {
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	img {
+		max-width: 100%;
+		vertical-align: top;
+	}
+
+	h2 {
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 18px;
+		letter-spacing: 0.1em;
+		margin-bottom: 30px;
+	}
+}
+
+.sert-wrap {
+	@include clearfix();
+	padding: 30px 0 10px 0;
+	border-bottom: 1px solid $border;
+	border-top: 1px solid $border;
+}
+
+.return-left {
+	float: left;
+	height: 46px;
+	line-height: 46px;
+	color: $brown;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-weight: bold;
+	@include ts(ease,0.1s);
+
+	&:hover {
+		color: $light;
+
+		i {
+			-webkit-filter: grayscale(1);
+			 filter: grayscale(1);
+		}
+	}
+
+	i {
+		margin-right: 15px;
+		position: relative;
+		top: 4px;
+		@include ts(ease,0.1s);
+	}
+}
+
+.return-right {
+	float: right;
+	height: 46px;
+	line-height: 46px;
+	color: $brown;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-weight: bold;
+	@include ts(ease,0.1s);
+
+	&:hover {
+		color: $light;
+
+		i {
+			-webkit-filter: grayscale(1);
+			 filter: grayscale(1);
+		}
+	}
+
+	i {
+		margin-left: 15px;
+		position: relative;
+		top: 4px;
+		@include rotate(180deg);
+		@include ts(ease,0.1s);
+	}
+}

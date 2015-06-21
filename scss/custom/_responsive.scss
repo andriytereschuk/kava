@@ -798,7 +798,8 @@
 		img {
 			margin: 0;
 			width: 100%;
-			width: calc(100% + 30px);
+			width: calc(100% + 30px) !important;
+			height: auto !important;
 			position: relative;
 			left: -15px;
 		}
@@ -1406,7 +1407,8 @@
 	article, .cafe-desc {
 		img {
 			  max-width: none;
-			  width: calc(100% + 30px);
+			  width: calc(100% + 30px) !important;
+			  height: auto !important;
 			  position: relative;
 			  left: -15px;
 			  margin-bottom: 25px;
@@ -1545,6 +1547,14 @@
 
 	.k-cource-list h2 {
 		font-size: 32px;
+	}
+
+	#sertificates a {
+		font-size: 12px;
+
+		i {
+			display: none;
+		}
 	}
 
 }
