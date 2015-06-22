@@ -191,6 +191,19 @@
 }
 
 @media (max-width: $screen-sm-max) {
+	.k-wrap {
+	  padding: 0 76px;
+	  position: relative;
+	}
+
+	.c-prev {
+	  left: 0;
+	}
+
+	.c-next {
+	  right: 0;
+	}
+
 	.slider-t1 {
 		display: none;
 	}
@@ -1577,6 +1590,14 @@
 	  width: 100%;
 	}
 }
+
+@media (max-width: 546px) {
+	.k-wrap {
+	  padding: 0 26px;
+	  position: relative;
+	}
+}
+
 
 @media (max-width: 440px) {
 	.skillsPieChart {

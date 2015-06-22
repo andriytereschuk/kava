@@ -96,10 +96,6 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 	@include sprite($icon, icon-right-slider);
 }
 
-.icon-right-slider {
-	@include sprite($icon, icon-right-slider);
-}
-
 .icon-close-btn {
 	@include sprite($icon, icon-close-btn);
 }

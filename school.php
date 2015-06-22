@@ -6,6 +6,7 @@
 	include_once('inc/school/cal.php');
 	include_once('inc/school/events.php');
 	include_once('inc/school/treners.php');
+	include_once('inc/school/mediateka.php');
 	include_once('inc/school/map.php');
 	
 
