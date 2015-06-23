@@ -39,6 +39,9 @@
 }
 
 @media (max-width: $screen-md-max) {
+	.share-book {
+		font-size: 13px;
+	}
 
 	.p-grid-item {
 	  height: 380px;
@@ -191,6 +194,10 @@
 }
 
 @media (max-width: $screen-sm-max) {
+	.ml-20.add-to-busket {
+		margin-left: 0;
+		float: right !important;
+	}
 	.k-wrap {
 	  padding: 0 76px;
 	  position: relative;
@@ -1729,4 +1736,3 @@
 			}
 	}
 }
-

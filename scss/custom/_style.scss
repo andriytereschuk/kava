@@ -3265,7 +3265,7 @@ hr {
 	width: 100%;
 	bottom: -56px;
 	height: 56px;
-	background-color: #fff;
+	background-color: #EAEAEA;
 	@include ts(ease,0.4s);
 }
 
@@ -4138,4 +4138,50 @@ hr {
 .k-wrap {
 	padding: 0 86px;
 	position: relative;
+}
+
+.book-link {
+	display: block;
+	text-align: center;
+	min-height: 305px;
+
+	span {
+		@include ts(ease,0.2s);
+	}
+
+	img {
+		width: 170px;
+		height: 204px;
+		margin-bottom: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		@include ts(linear,0.2s);
+	}
+
+	&:hover {
+		span {
+			color: $light;
+		}
+
+		img {
+			-webkit-filter: sepia(0.5);
+			filter: sepia(0.5);
+		}
+	}
+}
+
+.book-title {
+	font-size: 18px;
+	line-height: 20px;
+	display: block;
+	color: $black;
+	margin-bottom: 2px;
+}
+
+.book-price {
+	font-size: 18px;
+	color: $brown;
+	font-weight: bold;
+	display: block;
 }
