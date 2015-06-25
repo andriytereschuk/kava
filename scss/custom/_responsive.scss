@@ -1377,17 +1377,21 @@
 		margin: 10px 0;
 	}
 
-	.modal-dialog.madal-login {
+	.modal-dialog.madal-login, .modal-dialog.modal-order {
 		width: 300px;
 		margin: 10px auto 10px auto;
 	}
 
-	.madal-login .modal-content {
+	.madal-login .modal-content, .modal-order .modal-content {
 	  padding: 12px 15px;
 	}
 
 	.madal-login h2 {
 		margin-bottom: 25px;
+	}
+
+	.wrap-order {
+	  padding: 10px 0 0 0;
 	}
 
 	.sidebar {

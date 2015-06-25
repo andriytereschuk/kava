@@ -4185,3 +4185,72 @@ hr {
 	font-weight: bold;
 	display: block;
 }
+
+.modal-dialog.modal-order {
+	width: 500px;
+}
+
+.modal-order {
+	.modal-content {
+		padding: 30px 40px;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 24px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		margin-bottom: 25px;
+	}
+
+	.red-btn {
+		width: 260px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+}
+
+.wrap-order {
+	padding: 10px 35px 0 35px;
+
+	.select1 {
+		width: 100%;
+	}
+}
+
+.in-wrap {
+	position: relative;
+
+	&.required {
+		&:after {
+			content: '*';
+			display: block;
+			position: absolute;
+			color: $red;
+			right: -12px;
+			top: -2px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+	}
+
+	.area {
+		margin-bottom: 5px;
+	}
+}
+
+.require-text {
+	text-align: center;
+	color: $light;
+	sup {
+		color: $red;
+		font-weight: bold;
+		font-size: 20px;
+		position: relative;
+		top: 0px;
+		margin-right: 5px;
+	}
+}

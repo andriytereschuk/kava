@@ -42,7 +42,54 @@
 			<div class="col-sm-5 col-md-4">
 				
 				<div class="sidebar pb-0">
-					<a href="" class="red-btn to-shop">ЗАПИСАТИСЬ НА КУРС</a>
+					<a href="" data-toggle="modal" data-target="#course-order" class="red-btn to-shop">ЗАПИСАТИСЬ НА КУРС</a>
+
+					<!-- Логін попап -->
+					<div class="modal fade" id="course-order" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog modal-order">
+					  		<div class="modal-content">
+									<div class="close-popup" data-dismiss="modal" aria-label="Close"><i class="icon-close"></i></div>
+									<h2>зАПИСАТИСЬ</h2>
+									<hr>
+									<div class="wrap-order">
+										<div class="in-wrap required">
+											<input type="text" class="in" placeholder="Логін">
+										</div>
+
+										<div class="in-wrap required">
+											<input type="email" class="in" placeholder="Email">
+										</div>
+
+										<div class="in-wrap">
+											<input type="text" class="in" placeholder="Телефон">
+										</div>
+
+										<div class="in-wrap required">
+											<div class="select-wrap mb-20">
+												<select class="select1">
+													<option value="">Спосіб оплати</option>
+													<option value="">Спосіб 1</option>
+													<option value="">Спосіб 2</option>
+												</select>
+
+												<div class="select-arr">
+													<i class="icon-select-arrow"></i>
+												</div>
+											</div>
+										</div>
+
+										<div class="in-wrap required">
+											<textarea class="area" placeholder="Коментар"></textarea>
+										</div>
+
+										<div class="require-text"><sup>*</sup>Обов’язкові поля</div>
+									</div>
+									<hr>
+
+									<a href="" class="red-btn">Відправити</a>
+								</div>
+					  </div>
+					</div>
 					<div class="download-sec">
 						<a href="">Завантажити PDF <img src="images/icon-pdf.png" alt=""></a>
 					</div>
